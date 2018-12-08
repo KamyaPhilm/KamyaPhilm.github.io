@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Kawempe Timber and Saw Milling Company Limited</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+</style>
+<body>
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-red w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Exit Menu</a>
+  <div class="w3-container">
+    <h3 class="w3-padding-64"><b>Kawempe Timber and Saw Milling Company Limited</b></h3>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a> 
+    <a href="#showcase" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Showcase</a> 
+    <a href="#services" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Services</a> 
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contact</a>
+    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">About</a>
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-red w3-margin-right" onclick="w3_open()">☰</a>
+  <span>Kawempe Timber and Saw Milling Company Limited</span>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+  <!-- Header -->
+  <div class="w3-container" style="margin-top:80px" id="showcase">
+    <h1 class="w3-jumbo"><b>Timber and Furniture</b></h1>
+    <h1 class="w3-xxxlarge w3-text-red"><b>Showcase.</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+  </div>
+  
+  <!-- Photo grid (modal) -->
+  <div class="w3-row-padding">
+    <div class="w3-half">
+      <img src="photos/bedroom-furniture.jpg" style="width:100%" onclick="onClick(this)" alt="Bedroom Furniture">
+      <img src="photos/wooden-door.jpg" style="width:100%" onclick="onClick(this)" alt="Wooden Doors">
+      <img src="photos/dining-furniture.jpg" style="width:100%" onclick="onClick(this)" alt="Dining Room Furniture">
+    </div>
+
+    <div class="w3-half">
+      <img src="photos/timber.jpg" style="width:100%" onclick="onClick(this)" alt="Processed Timber">
+      <img src="photos/timber-arran.jpg" style="width:100%" onclick="onClick(this)" alt="Arranged Timber">
+      <img src="photos/wood-timber.jpg" style="width:100%" onclick="onClick(this)" alt="Logs">
+    </div>
+  </div>
+
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-black w3-xxlarge w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
+    </div>
+  </div>
+
+  <!-- Services -->
+  <div class="w3-container" id="services" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Services.</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <h4><b>MARKET CAPACITY</b></h4> 
+    <p>KTSMco. Ltd is targeting the local and regional markets. We expect to serve 60% of the market available.<br>
+    We expect to out weigh our competitors on this note because the new raw material (off cuts) to be used is cheaper than timber; the machinery we hope to use will improve the quality of locally manufactured products yet at lower prices compared to other timber products.</p>
+
+      <h4><b>SAW MILLING</b></h4>
+      <p>Presently KTSM Company has a steady production capacity through proper use of its experienced and motivated staff.<br>
+      Woodmizer sawmills, which are imported from the United States and 17 chain saw for felling, lumbering and crosscutting trees. For active supply of timber the raw material to the factory and public.</p>
+
+    <p>The company also has 4 lorries of ten tyre wheel with 10.5 tones carrying capacity for transporting timber and products, two motorcycles for monitoring, 1small truck for transporting finished products to the customers and each Director and Senior staff has a car, which help in other operations and activities.</p>
+
+  <p>The company has also acquired concession with Uganda Wild life Authority (U.W.A) and National Forest Authority (N.F.A) in insuring that the environment is catered for and our activities do not bear negative impact on the surrounding environment.</p>
+
+<h4><b>SERVICES OFFERED</b></h4>
+<p>KTSM current line of products and services is manufacturing of high quality furniture and fittings from both hardwood and softwood. Amongst the services are:</p>
+    <ul>
+    <li>Site Fitting works</li>
+    <li>Timber Sales & Supply</li>
+    <li>Consultation on Wood & Wood Works</li>
+    <li>Import & Supply of Hi-Tech Wood Working Machines</li>
+   <li>Importers of Furniture</li>
+    In addition to the products KTSMco also offers other professional related services to its customers in order to increase service care and satisfaction. These include supervising;
+    <li>Supervising houses that are being roofed.</li>
+    <li>Fitting household furniture and fittings.</li>
+    <li>Free deliveries of products to customers within a given radius of distance.</li>
+    <li>Free loading of the timber or any other product on to the customers’ vehicle</li>
+  </ul>
+  </div>
+  
+ 
+  <!-- Contact -->
+  <div class="w3-container" id="contact" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Contact.</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p>Do you rally want good quality furniture and wood?<br>
+    Reach us through our contacts below and We love meeting new people!</p>
+    <i class="fa fa-phone" style="font-size:40px;color:black;"></i><span style="color: white">+256 775</span><span>+256 775 313 391</span><br><br>
+    <i class="fa fa-whatsapp" style="font-size:40px;color:green;"></i><span style="color: white">+256 775</span><span>+256 778 943 050</span><br><br>
+    <i class="fa fa-envelope" style="font-size:40px;color:darkblue;"><span style="color: white">775</span></i><span>kawtimsawmilco@gmail.com</span><br><br>
+    <i class="fa fa-map-marker" style="font-size:40px;color:darkblue;"><span style="color: white">775</span></i><span>Kawempe industrial area plot 59</span>
+  </div>
+
+  <!-- About -->
+  <div class="w3-container" id="about" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>About.</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p>Kawempe Timber and Saw Milling Company Limited was established in 2000 as a Business venture to exploit the possibility of processing and manufacture of high quality wood products and exploiting timbers.</p>
+    <p>The company was started by two people from the same family and was fully registered in 2001 as required by the Company Act of 1985, as KTSMco Company Limited.</p>
+    <p>KTSMco has two Directors and their respective positions.
+    </p>
+  </div>
+
+<!-- End page content -->
+</div>
+
+<!-- W3.CSS Container -->
+<div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px"><p class="w3-right">Website by <a href="https://www.linkedin.com/in/kamya-philm-84776b163?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Brxbwdiz3TNunFC2YXJmRDQ%3D%3D" target="_blank" class="w3-hover-opacity">Kamya Philm</a></p></div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+</script>
+
+</body>
+</html>
